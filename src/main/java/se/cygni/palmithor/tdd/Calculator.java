@@ -7,7 +7,7 @@ import java.util.Optional;
 public class Calculator {
 
 
-    public Optional<Integer> addAll(final Integer... valuesParam) {
+    public Optional<Integer> sumAll(final Integer... valuesParam) {
         if (valuesParam == null) {
             return Optional.empty();
         } else if (valuesParam.length < 1) {
